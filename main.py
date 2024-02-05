@@ -28,10 +28,9 @@ reset_code = "1A"
 bookwork_code = reset_code
 debug_log = False
 
-# Clear Screen NEEDS WORK
+# Clear Screen
 def clear():
-    for x in range(os.get_terminal_size()[1]):
-        print("")
+    os.system('cls')
 
 
 # Get directory
